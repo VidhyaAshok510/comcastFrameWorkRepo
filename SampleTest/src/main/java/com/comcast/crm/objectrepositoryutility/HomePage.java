@@ -27,6 +27,9 @@ public class HomePage {
 	private WebElement serviceLink;
 	@FindBy(linkText="Products")
 	private WebElement productLink;
+	@FindBy(linkText="Cart")
+	private WebElement cartLink;
+	
 
 	@FindBy(xpath="//img[@src='themes/softed/images/menuDnArrow.gif']")
 	private WebElement moreLink ;
