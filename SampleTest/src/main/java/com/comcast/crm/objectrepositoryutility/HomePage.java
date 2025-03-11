@@ -11,6 +11,7 @@ public class HomePage {
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		System.out.println("Home Page");
 	}
 	@FindBy(linkText="Organizations")
 	private WebElement orgLink;
