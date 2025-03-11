@@ -24,6 +24,8 @@ public class HomePage {
 	private WebElement leadLink;
 	@FindBy(linkText="Services")
 	private WebElement serviceLink;
+	@FindBy(linkText="Products")
+	private WebElement productLink;
 
 	@FindBy(xpath="//img[@src='themes/softed/images/menuDnArrow.gif']")
 	private WebElement moreLink ;
