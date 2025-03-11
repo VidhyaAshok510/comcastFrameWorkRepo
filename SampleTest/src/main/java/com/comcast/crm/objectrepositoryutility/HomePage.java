@@ -12,6 +12,7 @@ public class HomePage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		System.out.println("Home Pag");
+		System.out.println("Login page loaded");
 	}
 	@FindBy(linkText="Organizations")
 	private WebElement orgLink;
@@ -27,9 +28,13 @@ public class HomePage {
 	private WebElement serviceLink;
 	@FindBy(linkText="Products")
 	private WebElement productLink;
+
 	@FindBy(linkText="Cart")
 	private WebElement cartLink;
 	
+	@FindBy(linkText="Options")
+	private WebElement optionLink;
+
 
 	@FindBy(xpath="//img[@src='themes/softed/images/menuDnArrow.gif']")
 	private WebElement moreLink ;
